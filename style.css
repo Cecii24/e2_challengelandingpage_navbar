@@ -9,20 +9,18 @@
 body {
   margin: 1rem;
   font-family: "Lora", serif;
-  background: #dae2f8;
-  background: -webkit-linear-gradient(to right, #d6a4a4, #dae2f8);
-  background: linear-gradient(to right, #d6a4a4, #dae2f8);
+  background: #232946;
 }
 
 nav {
   width: 100%;
   height: 70px;
-  background: white;
+  background: #fffffe;
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
-  box-shadow: 0px 5px 10px 0px rgba(55, 53, 57, 1);
+  box-shadow: 0px 1px 10px 5px rgba(238, 187, 195, 1);
 }
 
 .img {
@@ -37,15 +35,15 @@ nav {
 }
 
 a {
-  color: black;
+  color: #232946;
 }
 a:hover {
   padding: 5px;
   border-radius: 3px;
-  color: white;
-  background: #a9d4d1;
+  color: #fffffe;
+  background: #eebbc3;
 }
 
 li {
-  color: #403334;
+  color: #232946;
 }
